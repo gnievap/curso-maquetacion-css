@@ -176,3 +176,15 @@ nav .profile-link a {
     padding-bottom: 20px;
     text-align: center;
 }
+
+.blogs-button {
+    border: 1px solid var(--color-prymary);
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blogs-button:hover {
+	border: 1px solid var(--color-white);
+	color: var(--color-white);
+	background-color: var(--color-prymary);
+}
