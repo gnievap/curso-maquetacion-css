@@ -6,6 +6,7 @@
     --font-large: 1.6rem;
     --color-prymary: #3973ac;
     --color-white: #ffffff;
+    --color-gray: #cdd2da;
     /*--color-white: #b3daff;*/
     --color-black: #000000;
 }
@@ -227,4 +228,25 @@ footer {
 footer p {
     color: var(--color-white);
     margin-top: 30px;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid var(--color-gray);
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 35px;
 }
