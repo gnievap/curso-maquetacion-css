@@ -7,8 +7,9 @@
     --color-prymary: #3973ac;
     --color-white: #ffffff;
     --color-gray: #cdd2da;
-    /*--color-white: #b3daff;*/
+    --color-contact: #e6e9ed;
     --color-black: #000000;
+    --color-contact2: #bcbfc2;    
 }
 
 body {
@@ -249,4 +250,34 @@ footer p {
 
 .blogpost-main-container article h1 {
     font-size: 35px;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: var(--color-contact2);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+    background-color: var(--color-contact2);
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid var(--color-black);
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
+
 }
